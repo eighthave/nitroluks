@@ -31,7 +31,7 @@ __Note that IT IS IMPORTANT THAT THE SLOT NAME IN THE NITROKEY IS__ `LUKS` __OTH
 
 
 ### Install
-* Make sure you have `devscripts`, `libhidapi-dev` and `cmake` installed.
+* `sudo apt-get install devscripts libhidapi-dev libnitrokey-dev`
 
 * Clone this repo and run `make debianize`.
 
